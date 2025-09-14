@@ -10,6 +10,8 @@ long long myPow(long long a)
     return ret;
 }
 
+
+
 void calculate()
 {
     long long ret = 0;
