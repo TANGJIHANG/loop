@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+#include<time.h>
 
 int foldHigh()
 {
@@ -14,6 +15,8 @@ int foldHigh()
         }
     }
 }
+
+
 
 int main()
 {
