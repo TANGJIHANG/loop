@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../print_pattern"
+		},
+		{
+			"name": "lep",
+			"path": "C:/Users/HUAWEI/Documents/PlatformIO/Projects/lep"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdbool.h": "c"
+		}
+	}
+}
