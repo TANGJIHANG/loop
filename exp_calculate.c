@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-long long myPow(long long a)
+long long myPow(int a)
 {
     long long ret = a;
-    for(long long i = 1;i < a;i++)
+    for(int i = 1;i < a;i++)
     {
         ret = a*ret;
     }
@@ -19,7 +19,9 @@ void calculate()
     {
         ret += myPow(i);
     }
-    printf("%d\n",ret);
+    //printf("%d\n",ret);
+    //错误原因：long long 的占位符是 %lld
+    printf("%lld\n",ret);
 }
 
 int main()
